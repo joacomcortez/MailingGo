@@ -1,0 +1,9 @@
+Dear {{.Name}},
+
+The following items have been marked as offers!
+{{range .Articles}}
+- Article name: {{.Name}}, Description: {{.Description}}, Price: {{.Precio}}
+{{end}}
+
+Best regards,
+The mailing microservice
